@@ -96,3 +96,7 @@ def orthogonal(scale=1.0, column_axis=-1):
     Q = np.moveaxis(Q, -1, column_axis)
     return scale * Q
   return init
+
+def delta_orthogonal():
+  return 0
+
